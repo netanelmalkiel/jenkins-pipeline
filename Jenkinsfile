@@ -21,6 +21,6 @@ pipeline{
                 echo 'applying...'
                 sh 'terraform apply -auto-approve'
             }
-        }
-        
+        }      
     }
+}
